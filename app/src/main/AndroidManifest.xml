@@ -12,9 +12,12 @@
         android:theme="@style/Theme.VirgoMusic"
         tools:targetApi="31">
         <activity
+            android:name=".PlayListActivity"
+            android:exported="false" />
+        <activity
             android:name=".PlayerActivity"
             android:exported="false"
-            android:screenOrientation="nosensor"/>
+            android:screenOrientation="nosensor" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
