@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Context
 import android.net.ConnectivityManager
+import android.util.Log
 import android.view.MotionEvent
 import android.view.View
 import android.view.inputmethod.InputMethodManager
@@ -20,6 +21,10 @@ fun Context.showToast(message: Int) {
     toast?.cancel()
     toast = Toast.makeText(this, message, Toast.LENGTH_SHORT)
     toast!!.show()
+}
+
+fun Context.logger(message: String) {
+    Log.d("duylt", message)
 }
 
 @SuppressLint("ClickableViewAccessibility")
