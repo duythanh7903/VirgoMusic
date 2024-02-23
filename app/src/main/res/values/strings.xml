@@ -4,4 +4,9 @@
     <string name="playlists">Playlists</string>
     <string name="favorite">Favorite</string>
     <string name="total_songs_">Total Songs:</string>
+    <string name="allow_all_permission">Allow All Permission</string>
+    <string name="go">Go</string>
+    <string name="write_storage">Write Storage</string>
+    <string name="permission">Permission</string>
+    <string name="must_accept_all_permission">You must agree to the permissions first!</string>
 </resources>
