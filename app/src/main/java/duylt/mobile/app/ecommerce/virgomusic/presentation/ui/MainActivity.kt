@@ -32,4 +32,9 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
             }
         }
     }
+
+    override fun onResume() {
+        super.onResume()
+        checkPermissionDined()
+    }
 }

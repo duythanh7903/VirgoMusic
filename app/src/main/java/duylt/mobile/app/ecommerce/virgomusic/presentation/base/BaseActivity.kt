@@ -2,16 +2,20 @@ package duylt.mobile.app.ecommerce.virgomusic.presentation.base
 
 import android.content.Context
 import android.content.ContextWrapper
+import android.content.Intent
+import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.ActivityCompat
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import androidx.viewbinding.ViewBinding
 import duylt.mobile.app.ecommerce.virgomusic.data.source.local.datastore.SharePrefUtils
+import duylt.mobile.app.ecommerce.virgomusic.presentation.ui.PermissionActivity
 import java.util.Locale
 
 abstract class BaseActivity<T : ViewBinding> : AppCompatActivity() {
@@ -68,4 +72,21 @@ abstract class BaseActivity<T : ViewBinding> : AppCompatActivity() {
         window.statusBarColor = color
     }
 
+    fun checkPermissionDined() {
+        val isPermissionDenied =
+            ActivityCompat.checkSelfPermission(
+                this,
+                android.Manifest.permission.WRITE_EXTERNAL_STORAGE
+            ) == PackageManager.PERMISSION_DENIED
+        if (isPermissionDenied) {
+            val intent = Intent(this, PermissionActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
+    fun isPermissionDenied(): Boolean =
+        ActivityCompat.checkSelfPermission(
+            this,
+            android.Manifest.permission.WRITE_EXTERNAL_STORAGE
+        ) == PackageManager.PERMISSION_DENIED
 }
