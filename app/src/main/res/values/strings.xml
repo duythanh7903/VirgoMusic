@@ -9,4 +9,9 @@
     <string name="write_storage">Write Storage</string>
     <string name="permission">Permission</string>
     <string name="must_accept_all_permission">You must agree to the permissions first!</string>
+    <string name="feature">Feature</string>
+    <string name="rate">Rate</string>
+    <string name="language">Language</string>
+    <string name="defaut_device">Default device</string>
+    <string name="message_null_list_songs">No Song</string>
 </resources>

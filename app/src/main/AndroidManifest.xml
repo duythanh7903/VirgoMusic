@@ -6,8 +6,10 @@
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
+        android:name=".VirgoMusicApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -16,11 +18,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VirgoMusic"
         android:usesCleartextTraffic="true"
-        tools:targetApi="31" >
+        tools:targetApi="31"
+        android:requestLegacyExternalStorage="true">
         <activity
             android:name=".presentation.ui.PermissionActivity"
             android:exported="false"
-            android:screenOrientation="nosensor"/>
+            android:screenOrientation="nosensor"
+            android:launchMode="singleTask"/>
         <activity
             android:name=".presentation.ui.FavoritesActivity"
             android:exported="false"
@@ -43,6 +47,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service android:name=".presentation.service.MusicService"/>
+        <receiver android:name=".presentation.broadcast.NotificationReceiver"
+            android:enabled="true"/>
     </application>
 
 </manifest>

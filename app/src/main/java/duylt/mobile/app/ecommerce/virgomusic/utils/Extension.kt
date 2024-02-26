@@ -24,7 +24,7 @@ fun Context.showToast(message: Int) {
 }
 
 fun Context.logger(message: String) {
-    Log.d("duylt", message)
+    Log.d("hello", message)
 }
 
 @SuppressLint("ClickableViewAccessibility")

@@ -108,4 +108,7 @@ dependencies {
 
     /* Permission */
     implementation 'com.guolindev.permissionx:permissionx:1.7.1'
+
+    /* Notification */
+    implementation 'androidx.media:media:1.3.1'
 }

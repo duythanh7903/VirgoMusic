@@ -41,4 +41,8 @@ object SharePrefUtils {
     var language: String
         get() = getValue("language", "en")
         set(value) = setValue("language", value)
+
+    var isRepeat: Boolean
+        get() = getValue("is_repeat", false)
+        set(value) = setValue("is_repeat", value)
 }
