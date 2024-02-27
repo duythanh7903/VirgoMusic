@@ -10,6 +10,7 @@ import android.view.View
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
@@ -70,6 +71,16 @@ abstract class BaseActivity<T : ViewBinding> : AppCompatActivity() {
         window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
         window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
         window.statusBarColor = color
+    }
+
+    fun setStatusBarGradiant() {
+        window.apply {
+            val colorTransparent =
+                ContextCompat.getColor(context, android.R.color.transparent)
+            addFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS)
+            statusBarColor = colorTransparent
+            navigationBarColor = colorTransparent
+        }
     }
 
     fun checkPermissionDined() {

@@ -14,4 +14,14 @@
     <string name="language">Language</string>
     <string name="defaut_device">Default device</string>
     <string name="message_null_list_songs">No Song</string>
+    <string name="this_action_may_contain_advertising">This action may contain advertising</string>
+    <string name="next">Next</string>
+    <string name="started">Started</string>
+    <string name="title_intro_1">Title Intro 1</string>
+    <string name="title_intro_2">Title Intro 2</string>
+    <string name="title_intro_3">Title Intro 3</string>
+    <string name="des_intro_1">Des Intro 1</string>
+    <string name="des_intro_2">Des Intro 2</string>
+    <string name="des_intro_3">Des Intro 3</string>
+    <string name="languages">Languages</string>
 </resources>

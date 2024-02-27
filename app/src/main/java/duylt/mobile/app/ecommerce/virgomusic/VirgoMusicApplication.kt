@@ -23,11 +23,10 @@ class VirgoMusicApplication: Application() {
         SharePrefUtils.init(this)
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            val notificationChannel =  NotificationChannel(CHANNEL_ID, "Now is playing", NotificationManager.IMPORTANCE_HIGH)
+            val notificationChannel =  NotificationChannel(CHANNEL_ID, "Now is playing", NotificationManager.IMPORTANCE_DEFAULT)
             notificationChannel.description = "This is an important channel for showing song!"
             val notificationManager = getSystemService(NOTIFICATION_SERVICE) as NotificationManager
             notificationManager.createNotificationChannel(notificationChannel)
-
         }
     }
 }
