@@ -53,7 +53,7 @@
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="@dimen/_12sdp"
                 android:padding="@dimen/_2sdp"
-                android:src="@drawable/ic_tick_done" />
+                android:src="@drawable/icon_tick_done" />
         </RelativeLayout>
 
         <androidx.recyclerview.widget.RecyclerView

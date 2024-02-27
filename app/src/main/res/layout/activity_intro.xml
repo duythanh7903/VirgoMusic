@@ -41,20 +41,20 @@
                     android:id="@+id/dot1"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/ic_dot_select" />
+                    android:src="@drawable/icon_dot_select" />
 
                 <ImageView
                     android:id="@+id/dot2"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginHorizontal="@dimen/_10sdp"
-                    android:src="@drawable/ic_dot_not_select" />
+                    android:src="@drawable/icon_dot_not_select" />
 
                 <ImageView
                     android:id="@+id/dot3"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:src="@drawable/ic_dot_not_select" />
+                    android:src="@drawable/icon_dot_not_select" />
 
             </LinearLayout>
 

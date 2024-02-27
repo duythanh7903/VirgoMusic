@@ -55,10 +55,10 @@ class LanguageActivity : BaseActivity<ActivityLanguageBinding>() {
 
     private fun getListCountries(): MutableList<Language> =
         mutableListOf(
-            Language(R.drawable.ic_english, "English", "en"),
-            Language(R.drawable.ic_france, "French", "fr"),
-            Language(R.drawable.ic_india, "Hindi", "hi"),
-            Language(R.drawable.ic_portugal, "Portuguese", "pt"),
-            Language(R.drawable.ic_spanish, "Spanish", "es"),
+            Language(R.drawable.icon_english, "English", "en"),
+            Language(R.drawable.icon_france, "French", "fr"),
+            Language(R.drawable.icon_india, "Hindi", "hi"),
+            Language(R.drawable.icon_portugal, "Portuguese", "pt"),
+            Language(R.drawable.icon_spanish, "Spanish", "es"),
         )
 }
