@@ -61,11 +61,10 @@
             android:screenOrientation="nosensor" />
         <activity
             android:name=".presentation.ui.MainActivity"
-            android:exported="true"
+            android:exported="false"
             android:screenOrientation="nosensor" />
 
         <service android:name=".presentation.service.MusicService" />
-
         <receiver
             android:name=".presentation.broadcast.NotificationReceiver"
             android:enabled="true" />

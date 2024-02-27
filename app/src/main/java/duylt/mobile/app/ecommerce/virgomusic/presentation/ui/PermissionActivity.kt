@@ -1,23 +1,24 @@
 package duylt.mobile.app.ecommerce.virgomusic.presentation.ui
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import android.util.Log
-import android.widget.Toast
+import android.content.Intent
 import com.permissionx.guolindev.PermissionX
 import duylt.mobile.app.ecommerce.virgomusic.R
 import duylt.mobile.app.ecommerce.virgomusic.databinding.ActivityPermissionBinding
 import duylt.mobile.app.ecommerce.virgomusic.presentation.base.BaseActivity
+import duylt.mobile.app.ecommerce.virgomusic.presentation.ui.act.home.HomeActivity
 import duylt.mobile.app.ecommerce.virgomusic.utils.logger
 import duylt.mobile.app.ecommerce.virgomusic.utils.setClickAffect2
 import duylt.mobile.app.ecommerce.virgomusic.utils.showToast
-import duylt.mobile.app.ecommerce.virgomusic.utils.toast
 
 class PermissionActivity : BaseActivity<ActivityPermissionBinding>() {
+    
+    private var isFromIntro = false
+    
     override fun inflateViewBinding(): ActivityPermissionBinding =
         ActivityPermissionBinding.inflate(layoutInflater)
 
     override fun initView() {
+        isFromIntro = intent.getBooleanExtra("from_intro", false)
     }
 
     override fun setUpListener() {
@@ -28,14 +29,12 @@ class PermissionActivity : BaseActivity<ActivityPermissionBinding>() {
         }
     }
 
-    override fun onBackPressed() {
-        logger("Can not back!!!")
-    }
+    override fun onBackPressed() = Unit
 
     private fun requestPermissionWriteStorage() {
         PermissionX.init(this)
             .permissions(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
-            .request { allGranted, grantedList, deniedList ->
+            .request { allGranted, _, _ ->
                 binding.buttonWriteStoragePermission.isActivated = allGranted
             }
     }
@@ -43,6 +42,12 @@ class PermissionActivity : BaseActivity<ActivityPermissionBinding>() {
     private fun go() {
         if (isPermissionDenied()) {
             showToast(resources.getString(R.string.must_accept_all_permission))
-        } else { finish() }
+        } else { 
+            if (isFromIntro) {
+                val intent = Intent(this@PermissionActivity, HomeActivity::class.java)
+                startActivity(intent)
+            }
+            finish()
+        }
     }
 }

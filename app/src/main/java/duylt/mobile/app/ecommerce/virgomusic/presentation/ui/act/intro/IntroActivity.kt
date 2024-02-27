@@ -86,7 +86,7 @@ class IntroActivity : BaseActivity<ActivityIntroBinding>() {
         listIndicator[indexIndicator].setImageResource(R.drawable.ic_dot_select)
         binding.textNext.text =
             when (indexIndicator) {
-                3 -> resources.getString(R.string.started)
+                2 -> resources.getString(R.string.started)
                 else -> resources.getString(R.string.next)
             }
     }
@@ -95,6 +95,7 @@ class IntroActivity : BaseActivity<ActivityIntroBinding>() {
         val intent = Intent(this,
             if (isPermissionDenied()) PermissionActivity::class.java else HomeActivity::class.java
         )
+        intent.putExtra("from_intro", true)
         startActivity(intent)
         finish()
     }
