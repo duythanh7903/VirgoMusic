@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VirgoMusic</string>
+    <string name="shuffle">शफ़ल</string>
+    <string name="playlists">प्लेलिस्ट</string>
+    <string name="favorite">पसंदीदा</string>
+    <string name="total_songs_">कुल गाने:</string>
+    <string name="allow_all_permission">सभी अनुमतियाँ अनुमति दें</string>
+    <string name="go">जाओ</string>
+    <string name="write_storage">संग्रह लिखें</string>
+    <string name="permission">अनुमति</string>
+    <string name="must_accept_all_permission">आपको सभी अनुमतियों को पहले स्वीकार करना होगा!</string>
+    <string name="feature">विशेषता</string>
+    <string name="rate">मूल्यांकन</string>
+    <string name="language">भाषा</string>
+    <string name="defaut_device">डिफ़ॉल्ट डिवाइस</string>
+    <string name="message_null_list_songs">कोई गाना नहीं</string>
+    <string name="this_action_may_contain_advertising">यह कार्रवाई विज्ञापन शामिल कर सकती है</string>
+    <string name="next">अगला</string>
+    <string name="started">शुरू किया</string>
+    <string name="title_intro_1">शीर्षक परिचय 1</string>
+    <string name="title_intro_2">शीर्षक परिचय 2</string>
+    <string name="title_intro_3">शीर्षक परिचय 3</string>
+    <string name="des_intro_1">परिचय विवरण 1</string>
+    <string name="des_intro_2">परिचय विवरण 2</string>
+    <string name="des_intro_3">परिचय विवरण 3</string>
+    <string name="languages">भाषाएँ</string>
+    <string name="virgo_comic">वीरगो संगीत</string>
+    <string name="equalizer">समानांतर</string>
+    <string name="download">डाउनलोड</string>
+    <string name="presets">पूर्वनियोजित</string>
+    <string name="timer">टाइमर</string>
+    <string name="enter_your_youtube_link">अपना YouTube लिंक दर्ज करें</string>
+    <string name="share">साझा करें</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+
+</resources>

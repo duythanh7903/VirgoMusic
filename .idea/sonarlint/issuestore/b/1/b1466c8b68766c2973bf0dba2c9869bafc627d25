@@ -1,0 +1,48 @@
+
+k
+java:S1192ı"HDefine a constant instead of duplicating this literal "#212121" 3 times.(›†ÄÏùÿÿÿÿ8Ğ¹ë©ß1
+s	java:S117Ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö¿Å•øÿÿÿÿ8Ñ¹ë©ß1
+s	java:S117á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û®©ùÿÿÿÿ8Ñ¹ë©ß1
+s
+java:S1104+"VMake mEqualizer a static final constant or non-public and provide accessors if needed.(¥œ°–8Ò¹ë©ß1
+r
+java:S1104-"UMake bassBoost a static final constant or non-public and provide accessors if needed.(×„ å8Ò¹ë©ß1
+z
+java:S1104."XMake presetReverb a static final constant or non-public and provide accessors if needed.(ÈÃíŞÿÿÿÿÿ8Ò¹ë©ß1
+f
+java:S2184x"DCast one of the operands of this subtraction operation to a "float".(ÚÊ°æùÿÿÿÿ8Ó¹ë©ß1
+b
+java:S2184¿"DCast one of the operands of this subtraction operation to a "float".(Ùá…å8Ó¹ë©ß1
+b
+java:S2184Â"DCast one of the operands of this subtraction operation to a "float".(íß‹´8¹›€ªß1
+b
+java:S2184Ì"DCast one of the operands of this subtraction operation to a "float".(š†á™8­“ªß1
+C	java:S131M""Add a default case to this switch.(¼œóÛüÿÿÿÿ8íºë©ß1
+T
+java:S2696‘"6Make the enclosing method "static" or remove this set.(¹™˜¥8Ïºë©ß1
+Y
+java:S2696˜"6Make the enclosing method "static" or remove this set.(Ú”ê©ûÿÿÿÿ8Ğºë©ß1
+T
+java:S2696Ø"6Make the enclosing method "static" or remove this set.(¹šîŸ8Õºë©ß1
+>	java:S131›""Add a default case to this switch.(ìúÇV8ÛÅƒªß1
+^	java:S125µ"<This block of commented-out lines of code should be removed.(Ä Èåşÿÿÿÿ8îºë©ß1
+N
+java:S1874º"0Remove this use of "getColor"; it is deprecated.(¸´¯¦8ïºë©ß1
+Y
+java:S2696Ä"6Make the enclosing method "static" or remove this set.(œêÍ§ÿÿÿÿÿ8ïºë©ß1
+T
+java:S2696Å"6Make the enclosing method "static" or remove this set.(²âŒá8ïºë©ß1
+Ÿ
+java:S1186Ù"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‰ÁÕ–8ğºë©ß1
+Y
+java:S2696Í"6Make the enclosing method "static" or remove this set.(®®”ûÿÿÿÿ8ñºë©ß1
+T
+java:S2696Ô"6Make the enclosing method "static" or remove this set.(©ï©Ï8ñºë©ß1
+F
+java:S1185ç"(Remove this method to simply inherit it.(±íòÑ8òºë©ß1
+Y
+java:S2696û"6Make the enclosing method "static" or remove this set.(‰¯éùÿÿÿÿÿ8óºë©ß1
+Y
+java:S2696‹"6Make the enclosing method "static" or remove this set.(™ÇÇşÿÿÿÿ8õºë©ß1
+T
+java:S2696"6Make the enclosing method "static" or remove this set.(³˜€8õºë©ß1

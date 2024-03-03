@@ -1,0 +1,28 @@
+
+W
+java:S2184K"ACast one of the operands of this division operation to a "float".(„îê
+V
+java:S2184K"@Cast one of the operands of this integer division to a "double".(„îê
+W
+java:S2184L"ACast one of the operands of this division operation to a "float".(èÃ®Ù
+V
+java:S2184L"@Cast one of the operands of this integer division to a "double".(èÃ®Ù
+]
+java:S2184­"ACast one of the operands of this addition operation to a "float".(»«ƒðÿÿÿÿÿ
+k	java:S114"QRename this interface name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‹þìÌþÿÿÿÿ
+=
+java:S1659""Declare "midy" on a separate line.(çóÚ²ûÿÿÿÿ
+c
+java:S1659"HDeclare "circlePaint" and all following declarations on a separate line.(ÕŽÉÐøÿÿÿÿ
+V
+java:S1659"@Declare "deg" and all following declarations on a separate line.(çêòã
+B
+java:S1659"'Declare "lineColor" on a separate line.(ƒõŸ¯øÿÿÿÿ
+V	java:S125>"<This block of commented-out lines of code should be removed.(æ‚Äßÿÿÿÿÿ
+V	java:S125B"<This block of commented-out lines of code should be removed.(’ÕÖ¤þÿÿÿÿ
+:
+java:S1659O"Declare "y" on a separate line.(¨µú‘øÿÿÿÿ
+C
+java:S1481N"(Remove this unused "ang" local variable.(ƒº ¢ýÿÿÿÿ
+h
+java:S3776q"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(žžð±

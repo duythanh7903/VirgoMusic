@@ -17,6 +17,8 @@ import androidx.core.view.WindowInsetsControllerCompat
 import androidx.viewbinding.ViewBinding
 import duylt.mobile.app.ecommerce.virgomusic.data.source.local.datastore.SharePrefUtils
 import duylt.mobile.app.ecommerce.virgomusic.presentation.ui.PermissionActivity
+import duylt.mobile.app.ecommerce.virgomusic.utils.logError
+import duylt.mobile.app.ecommerce.virgomusic.utils.logInfo
 import java.util.Locale
 
 abstract class BaseActivity<T : ViewBinding> : AppCompatActivity() {
@@ -100,4 +102,20 @@ abstract class BaseActivity<T : ViewBinding> : AppCompatActivity() {
             this,
             android.Manifest.permission.WRITE_EXTERNAL_STORAGE
         ) == PackageManager.PERMISSION_DENIED
+
+    fun actionWithTryCatch(
+        messageErrorTitle: String,
+        action: () -> Unit,
+        actionWhenError: () -> Unit
+    ) =
+        try {
+            action()
+        } catch (e: Exception) {
+            if (e.message != null) {
+                logError("$messageErrorTitle: ${e.message}")
+                actionWhenError()
+            } else {
+                logInfo("NONE ERROR")
+            }
+        }
 }

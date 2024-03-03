@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VirgoMusic</string>
+    <string name="shuffle">Aleatorio</string>
+    <string name="playlists">Listas de reproducción</string>
+    <string name="favorite">Favoritos</string>
+    <string name="total_songs_">Canciones totales:</string>
+    <string name="allow_all_permission">Permitir todas las permisiones</string>
+    <string name="go">Ir</string>
+    <string name="write_storage">Escribir almacenamiento</string>
+    <string name="permission">Permiso</string>
+    <string name="must_accept_all_permission">¡Debe aceptar primero todos los permisos!</string>
+    <string name="feature">Característica</string>
+    <string name="rate">Calificar</string>
+    <string name="language">Idioma</string>
+    <string name="defaut_device">Dispositivo predeterminado</string>
+    <string name="message_null_list_songs">Sin canción</string>
+    <string name="this_action_may_contain_advertising">Esta acción puede contener publicidad</string>
+    <string name="next">Siguiente</string>
+    <string name="started">Comenzado</string>
+    <string name="title_intro_1">Título de introducción 1</string>
+    <string name="title_intro_2">Título de introducción 2</string>
+    <string name="title_intro_3">Título de introducción 3</string>
+    <string name="des_intro_1">Descripción de introducción 1</string>
+    <string name="des_intro_2">Descripción de introducción 2</string>
+    <string name="des_intro_3">Descripción de introducción 3</string>
+    <string name="languages">Idiomas</string>
+    <string name="virgo_comic">Música de Virgo</string>
+    <string name="equalizer">Ecualizador</string>
+    <string name="download">Descargar</string>
+    <string name="presets">Preajustes</string>
+    <string name="timer">Temporizador</string>
+    <string name="enter_your_youtube_link">Ingrese su enlace de YouTube</string>
+    <string name="share">Compartir</string>
+    <string name="privacy_policy">Política de privacidad</string>
+
+</resources>

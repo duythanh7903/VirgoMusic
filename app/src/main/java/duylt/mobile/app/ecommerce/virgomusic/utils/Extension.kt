@@ -24,7 +24,15 @@ fun Context.showToast(message: Int) {
 }
 
 fun Context.logger(message: String) {
-    Log.d("hello", message)
+    Log.d("hello_d", message)
+}
+
+fun Context.logInfo(message: String) {
+    Log.i("hello_i", message)
+}
+
+fun Context.logError(message: String) {
+    Log.e("hello_e", message)
 }
 
 @SuppressLint("ClickableViewAccessibility")

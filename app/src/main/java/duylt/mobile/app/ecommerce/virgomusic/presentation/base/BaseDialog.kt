@@ -12,7 +12,7 @@ import androidx.databinding.ViewDataBinding
 import duylt.mobile.app.ecommerce.virgomusic.R
 
 abstract class BaseDialog<DB : ViewDataBinding>(activity: Activity, var canAble: Boolean) :
-    Dialog(activity, R.style.BaseDialog) {
+    Dialog(activity) {
 
     lateinit var binding: DB
 
@@ -20,6 +20,7 @@ abstract class BaseDialog<DB : ViewDataBinding>(activity: Activity, var canAble:
     abstract fun setLanguage()
     abstract fun initView()
     abstract fun bindView()
+    abstract fun setListener()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         setLanguage()
@@ -31,6 +32,7 @@ abstract class BaseDialog<DB : ViewDataBinding>(activity: Activity, var canAble:
         setCancelable(canAble)
         initView()
         bindView()
+        setListener()
     }
     override fun onWindowFocusChanged(hasFocus: Boolean) {
         super.onWindowFocusChanged(hasFocus)

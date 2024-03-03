@@ -1,0 +1,43 @@
+
+y
+java:S1104"^Make isEqualizerEnabled a static final constant or non-public and provide accessors if needed.(ÎíÊéüÿÿÿÿ
+t
+java:S1104"_Make isEqualizerReloaded a static final constant or non-public and provide accessors if needed.(ŒˆÁ
+l
+java:S1104"VMake seekbarpos a static final constant or non-public and provide accessors if needed.(“ø¹
+p
+java:S1104"UMake presetPos a static final constant or non-public and provide accessors if needed.(ß¯¹ãıÿÿÿÿ
+n
+java:S1104"XMake reverbPreset a static final constant or non-public and provide accessors if needed.(ÌøÛË
+n
+java:S1104	"XMake bassStrength a static final constant or non-public and provide accessors if needed.(ôš¸ş
+u
+java:S1104
+"ZMake equalizerModel a static final constant or non-public and provide accessors if needed.(‹şûçûÿÿÿÿ
+g
+java:S1104"QMake ratio a static final constant or non-public and provide accessors if needed.(Â¯ëŞ
+k
+java:S1104"UMake isEditing a static final constant or non-public and provide accessors if needed.(ÍÔæ
+S
+java:S1444"8Make this "public static isEqualizerEnabled" field final(ÎíÊéüÿÿÿÿ
+N
+java:S1444"9Make this "public static isEqualizerReloaded" field final(ŒˆÁ
+F
+java:S1444"0Make this "public static seekbarpos" field final(“ø¹
+J
+java:S1444"/Make this "public static presetPos" field final(ß¯¹ãıÿÿÿÿ
+H
+java:S1444"2Make this "public static reverbPreset" field final(ÌøÛË
+H
+java:S1444	"2Make this "public static bassStrength" field final(ôš¸ş
+O
+java:S1444
+"4Make this "public static equalizerModel" field final(‹şûçûÿÿÿÿ
+A
+java:S1444"+Make this "public static ratio" field final(Â¯ëŞ
+E
+java:S1444"/Make this "public static isEditing" field final(ÍÔæ
+3
+java:S2386"Make this member "protected".(“ø¹
+U
+java:S1118":Add a private constructor to hide the implicit public one.(ì½ğÿÿÿÿÿ

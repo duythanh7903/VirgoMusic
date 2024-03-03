@@ -8,7 +8,7 @@ import duylt.mobile.app.ecommerce.virgomusic.R
 import duylt.mobile.app.ecommerce.virgomusic.data.source.local.datastore.SharePrefUtils
 import duylt.mobile.app.ecommerce.virgomusic.domain.model.Language
 
-class LanguageAdapter: BaseQuickAdapter<Language, BaseViewHolder>(R.layout.layout_item_language) {
+class LanguageAdapter: BaseQuickAdapter<Language, BaseViewHolder>(R.layout.item_language) {
 
     var selectedLang: String = SharePrefUtils.language
         @SuppressLint("NotifyDataSetChanged")

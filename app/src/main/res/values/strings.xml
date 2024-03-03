@@ -24,4 +24,12 @@
     <string name="des_intro_2">Des Intro 2</string>
     <string name="des_intro_3">Des Intro 3</string>
     <string name="languages">Languages</string>
+    <string name="virgo_comic">Virgo Music</string>
+    <string name="equalizer">Equalizer</string>
+    <string name="download">Download</string>
+    <string name="presets">Presets</string>
+    <string name="timer">Timer</string>
+    <string name="enter_your_youtube_link">Enter your youtube link</string>
+    <string name="share">Share</string>
+    <string name="privacy_policy">Privacy policy</string>
 </resources>

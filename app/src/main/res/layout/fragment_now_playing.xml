@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4D2A0183"
+        tools:context=".presentation.ui.fra.NowPlayingFragment">
+
+        <ImageView
+            android:id="@+id/containerImage"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="@dimen/_8sdp"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <ImageView
+            android:id="@+id/buttonPlay"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:padding="@dimen/_2sdp"
+            android:src="@drawable/state_button_play_pause"
+            app:layout_constraintBottom_toBottomOf="@id/containerImage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/containerImage"
+            android:layout_marginEnd="@dimen/_8sdp"/>
+
+        <TextView
+            android:id="@+id/textSongName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_16sdp"
+            android:fontFamily="@font/bold"
+            android:text="Hello"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14ssp"
+            app:layout_constraintEnd_toStartOf="@id/buttonPlay"
+            app:layout_constraintStart_toEndOf="@id/containerImage"
+            app:layout_constraintTop_toTopOf="@id/containerImage"
+            android:lines="1"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/textAuthorName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/italic"
+            android:text="Author name"
+            android:textSize="@dimen/_10ssp"
+            app:layout_constraintEnd_toEndOf="@id/textSongName"
+            app:layout_constraintStart_toStartOf="@id/textSongName"
+            app:layout_constraintTop_toBottomOf="@id/textSongName" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

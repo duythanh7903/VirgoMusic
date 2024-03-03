@@ -6,7 +6,6 @@ import duylt.mobile.app.ecommerce.virgomusic.R
 import duylt.mobile.app.ecommerce.virgomusic.databinding.ActivityPermissionBinding
 import duylt.mobile.app.ecommerce.virgomusic.presentation.base.BaseActivity
 import duylt.mobile.app.ecommerce.virgomusic.presentation.ui.act.home.HomeActivity
-import duylt.mobile.app.ecommerce.virgomusic.utils.logger
 import duylt.mobile.app.ecommerce.virgomusic.utils.setClickAffect2
 import duylt.mobile.app.ecommerce.virgomusic.utils.showToast
 
@@ -29,6 +28,7 @@ class PermissionActivity : BaseActivity<ActivityPermissionBinding>() {
         }
     }
 
+    @Deprecated("Deprecated in Java", ReplaceWith("Unit"))
     override fun onBackPressed() = Unit
 
     private fun requestPermissionWriteStorage() {

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VirgoMusic</string>
+    <string name="shuffle">Mélange</string>
+    <string name="playlists">Listes de lecture</string>
+    <string name="favorite">Favori</string>
+    <string name="total_songs_">Total des chansons :</string>
+    <string name="allow_all_permission">Autoriser toutes les permissions</string>
+    <string name="go">Aller</string>
+    <string name="write_storage">Écrire le stockage</string>
+    <string name="permission">Permission</string>
+    <string name="must_accept_all_permission">Vous devez d\'abord accepter toutes les permissions !</string>
+    <string name="feature">Fonctionnalité</string>
+    <string name="rate">Taux</string>
+    <string name="language">Langue</string>
+    <string name="defaut_device">Appareil par défaut</string>
+    <string name="message_null_list_songs">Aucune chanson</string>
+    <string name="this_action_may_contain_advertising">Cette action peut contenir de la publicité</string>
+    <string name="next">Suivant</string>
+    <string name="started">Commencé</string>
+    <string name="title_intro_1">Titre Intro 1</string>
+    <string name="title_intro_2">Titre Intro 2</string>
+    <string name="title_intro_3">Titre Intro 3</string>
+    <string name="des_intro_1">Descriptif Intro 1</string>
+    <string name="des_intro_2">Descriptif Intro 2</string>
+    <string name="des_intro_3">Descriptif Intro 3</string>
+    <string name="languages">Langues</string>
+    <string name="virgo_comic">Musique de Virgo</string>
+    <string name="equalizer">Égaliseur</string>
+    <string name="download">Télécharger</string>
+    <string name="presets">Préréglages</string>
+    <string name="timer">Minuteur</string>
+    <string name="enter_your_youtube_link">Entrez votre lien YouTube</string>
+    <string name="share">Partager</string>
+    <string name="privacy_policy">Politique de confidentialité</string>
+
+</resources>

@@ -11,7 +11,6 @@ class VirgoMusicApplication: Application() {
     companion object {
         const val CHANNEL_ID = "channel_1"
         const val PLAY = "play"
-        const val PAUSE = "pause"
         const val NEXT = "next"
         const val PREVIOUS = "previous"
         const val EXIT = "exit"

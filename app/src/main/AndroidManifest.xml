@@ -7,6 +7,7 @@
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:name=".VirgoMusicApplication"
@@ -21,13 +22,33 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".presentation.ui.act.home.FavoriteActivity"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".presentation.ui.act.home.TimerActivity"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".presentation.ui.act.home.PresetsActivity"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".presentation.ui.act.home.EqualizerActivity"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".presentation.ui.act.home.PlayerMusicActivity"
+            android:exported="false"
+            android:screenOrientation="nosensor" />
+        <activity
             android:name=".presentation.ui.act.home.HomeActivity"
             android:exported="false"
-            android:screenOrientation="nosensor"/>
+            android:screenOrientation="nosensor" />
         <activity
             android:name=".presentation.ui.act.language.LanguageActivity"
             android:exported="false"
-            android:screenOrientation="nosensor"/>
+            android:screenOrientation="nosensor" />
         <activity
             android:name=".presentation.ui.act.intro.IntroActivity"
             android:exported="false"
@@ -47,26 +68,11 @@
             android:exported="false"
             android:launchMode="singleTask"
             android:screenOrientation="nosensor" />
-        <activity
-            android:name=".presentation.ui.FavoritesActivity"
-            android:exported="false"
-            android:screenOrientation="nosensor" />
-        <activity
-            android:name=".presentation.ui.PlayListActivity"
-            android:exported="false"
-            android:screenOrientation="nosensor" />
-        <activity
-            android:name=".presentation.ui.PlayerActivity"
-            android:exported="false"
-            android:screenOrientation="nosensor" />
-        <activity
-            android:name=".presentation.ui.MainActivity"
-            android:exported="false"
-            android:screenOrientation="nosensor" />
 
         <service android:name=".presentation.service.MusicService" />
+
         <receiver
-            android:name=".presentation.broadcast.NotificationReceiver"
+            android:name=".presentation.broadcast.MusicReceiver"
             android:enabled="true" />
     </application>
 

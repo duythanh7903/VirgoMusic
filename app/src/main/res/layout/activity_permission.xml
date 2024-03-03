@@ -10,7 +10,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".presentation.ui.PermissionActivity">
+        tools:context=".presentation.ui.PermissionActivity"
+        android:background="@color/bg">
 
         <TextView
             android:id="@+id/tv_app_name"
@@ -33,7 +34,7 @@
             android:paddingHorizontal="10dp"
             android:text="@string/go"
             android:textAllCaps="false"
-            android:textColor="@color/color_primary"
+            android:textColor="@color/color_text_high_light"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="@id/tv_app_name"
             app:layout_constraintEnd_toEndOf="parent"
